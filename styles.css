@@ -1,0 +1,179 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('https://i.pinimg.com/originals/0e/39/c2/0e39c256714a4b7c0299323a82701647.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    padding: 20px;
+    color: #fff; /* Default text color */
+}
+
+header, .navbar {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo h1, .logo h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #555;
+    border-radius: 5px; /* Optional: Add rounded corners on hover */
+}
+
+/* Sections styling */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 10px; /* Optional: Rounded corners for sections */
+    margin-bottom: 20px; /* Optional: Margin between sections */
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background for sections */
+    color: #fff; /* Text color for sections */
+}
+
+.section .content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.section P {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.section .Projects-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.Projects-item {
+    max-width: 600px; /* Adjust as needed */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Example white box */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Projects-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.Projects-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333; /* Adjust text color as needed */
+}
+
+.Projects-item p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555; /* Adjust text color as needed */
+}
+
+.Contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Example white box */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Contact-form input,
+.Contact-form textarea,
+.Contact-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.Contact-form button {
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Contact-form button:hover {
+    background-color: #333;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background for footer */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer .social-links a:hover {
+    color: #0ef;
+}
+
+.section {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;  /* Center elements horizontally */
+    text-align: center;  /* Center text within the section */
+    padding: 50px 0;
+  }
+  
+  .section img {
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    border-radius: 50%; /* Make the image round */
+    margin-bottom: 20px;
+  }
